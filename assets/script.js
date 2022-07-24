@@ -1,4 +1,4 @@
-let palavras = ["programador", "algoritmo", "javascript", "html", "css", "web", "frontend", "backend", "fullstack", "desenvolvimento", "aplicativo", "jogo", "site", "software"];
+let palavras = ["abacaxi", "melancia", "melao", "tomate", "limao", "laranja", "banana", "kiwi", "jaca", "acerola", "caja", "caju", "morango", "amora"];
 
 let palavra = palavras[Math.floor(Math.random() * palavras.length)];
 
@@ -67,9 +67,10 @@ function escolheLetra(letra) {
         let mensagem = document.createElement("p");
         let t1 = document.createTextNode("Você perdeu!");
         mensagem.appendChild(t1);
+        
 
         let botao = document.createElement("button");
-        let t2 = document.createTextNode("jogar novamente");
+        let t2 = document.createTextNode("jogue de novo");
         
         botao.appendChild(t2);
         botao.setAttribute('class', 'novo-bt');
@@ -86,7 +87,7 @@ function escolheLetra(letra) {
         mensagem.appendChild(t1);
 
         let botao = document.createElement("button");
-        let t2 = document.createTextNode("jogar novamente");
+        let t2 = document.createTextNode("jogue de novo");
         
         botao.appendChild(t2);
         botao.setAttribute('class', 'novo-bt');
